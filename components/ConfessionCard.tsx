@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, Heart, Download, Check } from 'lucide-react';
@@ -6,7 +5,7 @@ import { Sparkles, Heart, Download, Check } from 'lucide-react';
 const ConfessionCard: React.FC = () => {
   const [typedText, setTypedText] = useState("");
   const [isSaved, setIsSaved] = useState(false);
-  const fullText = "宝 我喜欢你 愿意做我女朋友么";
+  const fullText = "罗颖女士,愿意做我女朋友么?";
 
   useEffect(() => {
     let i = 0;
